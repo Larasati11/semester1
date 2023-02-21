@@ -1,0 +1,14 @@
+public class MyArray16C {
+    public static void main(String [] args) {
+        int[] bil = new int[4];
+        bil[0] = 5;
+        bil[1] = 18;
+        bil[2] = 7;
+        bil[3] = 20;
+        for (int i = 0; i < 4; i++) {
+            System.out.println(bil[i]);
+        }
+        System.out.println("jumlah elemen yang ditampung : "+bil.length);
+    }
+    
+}
